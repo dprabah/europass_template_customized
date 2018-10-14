@@ -1,0 +1,329 @@
+%\PassOptionsToPackage{showframe}{geometry}
+\documentclass[a4paper,nodocument,nologo,notitle,black,11pt]{europasscv}
+\usepackage[a4paper,top=1.27cm,left=2cm,right=1cm,bottom=2cm]{geometry} %set outline
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{tabu}
+\usepackage{metalogo}
+
+\ifpdf
+\hypersetup{
+     colorlinks   = true
+}
+\fi
+
+
+\newcommand{\bs}{\textbackslash}
+\hypersetup{urlcolor=ecvlanglinkcolor}
+\begin{document}
+\ecvfont{lmr} %Set your customized font.
+\ecvname{Firstname Lastname}
+\ecvaddress{Address 12, Passau, Germany.}
+\ecvmobile{(+49)152 123456789}
+\ecvemail{yourmailid@domain.com}
+\ecvlinkedinpage{https://www.linkedin.com/in/yourpage-link/}
+\ecvdateofbirth{01.January.1990}
+\ecvnationality{Indian}
+\ecvgender{Male}
+\ecvpictureleft{photo.jpg}
+
+
+\begin{minipage}{20cm}
+  \begin{europasscv}
+    \ecvpersonalinfo
+  \end{europasscv}
+\end{minipage}
+
+
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+  \begin{europasscv}
+ %   \ecvbigitem{Job applied for}{ecvbigitem}
+	\ecvbigitem[5mm]{Job applied for}{Junior Software Developer}
+    \ecvsection{Introduction}
+
+    \ecvitem{}{
+    \begin{ecvitemize}
+\item[\textcolor{ecvsectioncolor}{$\circ$}]  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\item[\textcolor{ecvsectioncolor}{$\circ$}]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in ante sit amet neque egestas consequat eget molestie arcu.
+\item[\textcolor{ecvsectioncolor}{$\circ$}]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in ante sit.
+    \end{ecvitemize}
+ }
+   \end{europasscv}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Work experience section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Work Experience}
+		 
+		\ecvtitlelevel{Nov 2017 – Current}{Working Student, Wirecard Technologies AG, Munich, Germany}{}
+		\ecvitem{}{\ecvhighlight{Domain: Banking and Finance, Issuing Technologies}}
+		\ecvitem{}{
+			\begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc, efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+			\end{ecvitemize}
+		}
+	\end{europasscv}
+\end{minipage}
+
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+  \begin{europasscv}
+  \ecvtitlelevel{May 2016 – Mar 2017}{Developer, TATA Consultancy Services, Chennai, India.}{}
+      \ecvitem{}{\ecvhighlight{Domain: Mutual Funds Domain, UI for Maintaining ODS - Masters and Mapping tables}}
+    \ecvitem{}{
+    \begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc, efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				
+    \end{ecvitemize}
+    }
+  \end{europasscv}
+\end{minipage}
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+  \begin{europasscv} 
+  \ecvtitlelevel{Dec 2015 – Apr 2016}{Developer, TATA Consultancy Services, Chennai, India.}{}
+      \ecvitem{}{\ecvhighlight{Domain: Insurance Domain – UI Designer}}
+    \ecvitem{}{
+    \begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+    \end{ecvitemize}
+    }
+  \end{europasscv}
+\end{minipage}
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvtitlelevel{Mar 2014 – Nov 2015}{Developer, TATA Consultancy Services, Chennai, India.}{}
+		\ecvitem{}{\ecvhighlight{Domain: Insurance Domain – Portal for issuing insurance policies online}}
+		\ecvitem{}{
+			\begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+			\end{ecvitemize}
+		}
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Education section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Education}
+		
+		\ecvtitlelevel{Apr 2017 – Current}{Masters in Computer Science }{}
+		\ecvitem{}{\ecvhighlight{Degree Offered By:} University of Passau, Germany.}
+		
+	\end{europasscv}
+\end{minipage}
+
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		
+		\ecvtitlelevel{Jul 2010 – May 2013}{Bachelor of Technology – Information Technology}{}
+		\ecvitem{}{\ecvhighlight{Degree Offered By:} Anna University, Chennai, India.}
+		
+	\end{europasscv}
+\end{minipage}
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		
+		\ecvtitlelevel{Jul 2007 – May 2010}{Diploma In Information Technology}{}
+		\ecvitem{}{\ecvhighlight{Degree Offered By:} Department Of Technical Education, Chennai, India.}
+		
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Achievements section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{ACHIEVEMENTS}
+		
+		    \ecvitem{}{
+		    	\begin{ecvitemize}
+\item[\textcolor{ecvsectioncolor}{$\circ$}] Won \textbf{Best Project Award} for our Aenean quis urna a enim convallis aliquet. Donec dignissim, odio tristique volutpat volutpat, ante neque vulputate purus, sit amet dignissim enim ante vitae quam.
+\item[\textcolor{ecvsectioncolor}{$\circ$}] Won \textbf{First Prize} for pAenean quis urna a enim convallis aliquet. Donec dignissim, odio tristique volutpat volutpat, ante neque vulputate purus, sit amet dignissim enim ante vitae quam.
+\item[\textcolor{ecvsectioncolor}{$\circ$}] Bagged Appreciation from Clients and Top Management for effective work done.
+		    	\end{ecvitemize}
+		    }
+		
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Technical Proficiencies section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Technical Skills}
+		
+		\ecvitem{}{
+			\begin{ecvitemize}
+\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Languages and Specifications:} Python, Java EE, J2EE, JSP, Java Servlets, JDBC, SQL, PHP, JavaScript, XML, XHTML, HTML5, CSS3 etc....
+\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Frameworks and Libraries:} Spring Framework, Spring MVC, Spring Web Flow, Spring Security, JQuery, Bootstrap etc....
+\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Software Engineering:} Object Oriented Analysis and Design (OOA/OOD), Unit Testing, Integration Testing etc....
+\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Application Servers:} Apache Tomcat, BEA WebLogic server, Apache Web Server etc....
+\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Databases:} Oracle, MySQL, Microsoft Access etc....
+			\end{ecvitemize}
+		}
+		
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Business Skills section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Business Skills}
+		
+		\ecvitem{}{
+			\begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Knowledge in Non-life insurance concepts
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Knowledge in Mutual funds domain
+			\end{ecvitemize}
+		}
+		
+	\end{europasscv}
+\end{minipage}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%publications section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Papers published}
+		
+		\ecvitem{}{
+			\begin{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras lorem risus, feugiat at mi id, dignissim tempus nisl. Nullam pretium diam quis purus cursus laoreet. Proin maximus ante et elit dignissim, in sodales mauris laoreet
+			\end{ecvitemize}
+		}
+		
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Spoken Languages section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{24cm}
+	\begin{europasscv} 
+		\ecvsection{Spoken Languages}
+		
+\ecvmothertongue{Tamil}
+\ecvlanguageheader
+\ecvlanguage{English}{B2}{B2}{B2}{B2}{B2}
+\ecvlanguage{German}{B1}{B1}{B1}{B1}{B1}
+\ecvlanguage{Telugu}{-}{-}{-}{-}{-}
+\ecvlanguagefooter
+		
+	\end{europasscv}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Footer section starts%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vfill
+\begin{tabular}{r}
+Firstname lastname\\
+	\small\today\\
+\end{tabular}
+\hfill
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%End Of Doc %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

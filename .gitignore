@@ -1,0 +1,14 @@
+*~
+*.synctex.gz
+*.aux
+*.log
+*.out
+*.backup
+*.kate-swp
+*.bbl
+*.blg
+*.toc
+*.ps
+*.fls
+*.fdb_latexmk
+*.tar.gz
