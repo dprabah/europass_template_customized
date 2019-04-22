@@ -16,6 +16,7 @@
 
 \newcommand{\bs}{\textbackslash}
 \hypersetup{urlcolor=ecvlanglinkcolor}
+\setcounter{page}{2}
 \begin{document}
 \ecvfont{lmr} %Set your customized font.
 \ecvname{Firstname Lastname}
@@ -26,10 +27,14 @@
 \ecvdateofbirth{01.January.1990}
 \ecvnationality{Indian}
 \ecvgender{Male}
-\ecvpictureleft{photo.jpg}
+\ecvpictureright[height=4.5cm, width=4.1cm]{photo.jpg}
 
 
-\begin{minipage}{20cm}
+\ecvLeftColumnWidth{50mm}
+\hspace*{-7.4cm}
+\ecvLeftColumnWidth{90mm}
+\ecvColSep{10pt}
+\begin{minipage}{23cm}
   \begin{europasscv}
     \ecvpersonalinfo
   \end{europasscv}
@@ -41,7 +46,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
   \begin{europasscv}
  %   \ecvbigitem{Job applied for}{ecvbigitem}
 	\ecvbigitem[5mm]{Job applied for}{Junior Software Developer}
@@ -65,7 +70,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Work Experience}
 		 
@@ -75,8 +80,8 @@
 			\begin{ecvitemize}
 				\item[\textcolor{ecvsectioncolor}{$\circ$}] Cras mattis efficitur enim, quis dignissim sem rutrum eu.
 				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
-				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
-				\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc, efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
+\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi effici.
+\item[\textcolor{ecvsectioncolor}{$\circ$}] Nam ultricies, nisl quis consequat efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc, efficitur, tellus nisi efficitur arcu, vel interdum risus diam ac nunc.
 			\end{ecvitemize}
 		}
 	\end{europasscv}
@@ -87,7 +92,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
   \begin{europasscv}
   \ecvtitlelevel{May 2016 – Mar 2017}{Developer, TATA Consultancy Services, Chennai, India.}{}
       \ecvitem{}{\ecvhighlight{Domain: Mutual Funds Domain, UI for Maintaining ODS - Masters and Mapping tables}}
@@ -108,7 +113,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
   \begin{europasscv} 
   \ecvtitlelevel{Dec 2015 – Apr 2016}{Developer, TATA Consultancy Services, Chennai, India.}{}
       \ecvitem{}{\ecvhighlight{Domain: Insurance Domain – UI Designer}}
@@ -126,7 +131,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvtitlelevel{Mar 2014 – Nov 2015}{Developer, TATA Consultancy Services, Chennai, India.}{}
 		\ecvitem{}{\ecvhighlight{Domain: Insurance Domain – Portal for issuing insurance policies online}}
@@ -152,7 +157,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Education}
 		
@@ -167,7 +172,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		
 		\ecvtitlelevel{Jul 2010 – May 2013}{Bachelor of Technology – Information Technology}{}
@@ -180,7 +185,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		
 		\ecvtitlelevel{Jul 2007 – May 2010}{Diploma In Information Technology}{}
@@ -198,7 +203,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{ACHIEVEMENTS}
 		
@@ -222,18 +227,57 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Technical Skills}
 		
 		\ecvitem{}{
 			\begin{ecvitemize}
-\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Languages and Specifications:} Python, Java EE, J2EE, JSP, Java Servlets, JDBC, SQL, PHP, JavaScript, XML, XHTML, HTML5, CSS3 etc....
-\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Frameworks and Libraries:} Spring Framework, Spring MVC, Spring Web Flow, Spring Security, JQuery, Bootstrap etc....
-\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Software Engineering:} Object Oriented Analysis and Design (OOA/OOD), Unit Testing, Integration Testing etc....
-\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Application Servers:} Apache Tomcat, BEA WebLogic server, Apache Web Server etc....
-\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Databases:} Oracle, MySQL, Microsoft Access etc....
-			\end{ecvitemize}
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] 
+				\ecvhighlight{Languages and Specifications:} 
+				Java, 
+				J2EE, 
+				Python, 
+				JSP, 
+				Java Servlets, 
+				SQL, 
+				JavaScript, 
+				HTML5, 
+				CSS3.
+				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] 
+				\ecvhighlight{Frameworks and Libraries:} 
+				Spring Framework, 
+				Spring Web Services, 
+				Spring Web Flow, 
+				Spring Security,
+				Spring Boot, 
+				JQuery, 
+				Bootstrap.
+				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] 
+				\ecvhighlight{Software Engineering:} 
+				Object Oriented Analysis and Design (OOA/OOD), 
+				Unit Testing, 
+				Integration Testing.
+				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Application Servers:} 
+				Apache Tomcat, 
+				BEA WebLogic server.
+				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] \ecvhighlight{Databases:} 
+				Oracle, 
+				MySQL, 
+				Microsoft Access.
+				
+				\item[\textcolor{ecvsectioncolor}{$\circ$}] 
+				\ecvhighlight{Version controller and Build management:} 
+				Git, 
+				Jenkins, 
+				Maven, 
+				Gradle, 
+				Jira.
+							\end{ecvitemize}
 		}
 		
 	\end{europasscv}
@@ -248,7 +292,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Business Skills}
 		
@@ -272,7 +316,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Papers published}
 		
@@ -294,7 +338,7 @@
 \hspace*{-7.4cm}
 \ecvLeftColumnWidth{90mm}
 \ecvColSep{10pt}
-\begin{minipage}{24cm}
+\begin{minipage}{23cm}
 	\begin{europasscv} 
 		\ecvsection{Spoken Languages}
 		
